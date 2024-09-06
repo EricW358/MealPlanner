@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/HomeCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="5dp"
+    android:layout_marginVertical="20dp"
+    android:layout_marginHorizontal="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/idHomeCardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monday - May 9th"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/idHomeCardBreakfastLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_bed_24"
+                android:scaleType="centerCrop"
+                android:layout_marginHorizontal="46dp"/>
+
+            <ImageView
+                android:id="@+id/idHomeCardLunchLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_wb_sunny_24"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="75dp"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/idHomeCardDinnerLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_nights_stay_24"
+                android:layout_marginHorizontal="35dp"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/idHomeCardBreakfastImg"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:src="@drawable/not_available"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/idHomeCardLunchImg"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:src="@drawable/not_available"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="15dp"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/idHomeCardDinnerImg"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:src="@drawable/not_available"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/idHomeCardBreakfastText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Breakfast?"
+                />
+
+            <TextView
+                android:id="@+id/idHomeCardLunchText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="35dp"
+                android:textAlignment="center"
+                android:text="Lunch?"/>
+
+            <TextView
+                android:id="@+id/idHomeCardDinnerText"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Dinner?"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

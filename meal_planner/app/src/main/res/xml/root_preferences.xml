@@ -1,0 +1,65 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/profile_header">
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/name_title"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            android:defaultValue="american"
+            android:entries="@array/cuisine_entries"
+            android:entryValues="@array/cuisine_values"
+            android:key="favorite_cuisine"
+            android:title="Favorite Cuisine"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/recipe_header">
+
+        <SeekBarPreference
+            android:defaultValue=""
+            android:key="recipe_amount"
+            android:title="@string/num_recipes_title"
+            android:summary="@string/num_recipes_summary"
+            app:defaultValue="10"
+            app:min="5"
+            android:max="50"
+            app:showSeekBarValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/diet_header">
+
+        <MultiSelectListPreference
+            android:entries="@array/allergy_entries"
+            android:entryValues="@array/allergy_values"
+            android:key="allergies"
+            android:title="@string/allergies_title"
+            android:summary="@string/allergies_summary"
+            />
+        <ListPreference
+            android:defaultValue="everything"
+            android:entries="@array/lifestyle_entries"
+            android:entryValues="@array/lifestyle_values"
+            android:key="lifestyle"
+            android:title="@string/lifestyle_title"
+            app:useSimpleSummaryProvider="true"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/grocery_header">
+
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="metric"
+            android:title="Metric Measurements"
+            android:summaryOn="Using Metric Measurements"
+            android:summaryOff="Using US Measurements"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

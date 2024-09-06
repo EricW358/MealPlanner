@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idSplashLayout"
+    tools:context=".SplashActivity"
+    android:background="#119716">
+
+    <ImageView
+        android:id="@+id/idSplashImage"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/pasta_logo" />
+
+    <TextView
+        android:id="@+id/idSplashAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idSplashImage"
+        android:layout_centerInParent="true"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="40dp"
+        android:textAlignment="center"
+        android:text="Meal Planner"
+        android:textSize="50dp" />
+    <TextView
+        android:id="@+id/idSplashNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idSplashAppTitle"
+        android:layout_centerInParent="true"
+        android:fontFamily="casual"
+
+        android:text="By: Eric, Lakshya, and Saurabh"/>
+
+</RelativeLayout>

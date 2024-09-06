@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idDetailCardNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+
+            android:text="Step: 5"/>
+
+        <TextView
+            android:id="@+id/idDetailCardInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add cold rice (it separates easily, so it won't clump up during cooking), plus the additional grapeseed and coconut oil or butter. Raise heat to medium-high. Toss everything together and, again, spread the mixture out over the whole pan and press a bit into the bottom."
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="35dp"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

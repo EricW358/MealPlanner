@@ -1,0 +1,127 @@
+<resources>
+    <!-- Allergy Preference -->
+
+    <string-array name="allergy_entries">
+        <item>Dairy</item>
+        <item>Egg</item>
+        <item>Gluten</item>
+        <item>Grain</item>
+        <item>Peanut</item>
+        <item>Seafood</item>
+        <item>Sesame</item>
+        <item>Shellfish</item>
+        <item>Soy</item>
+        <item>Sulfite</item>
+        <item>Tree Nut</item>
+        <item>Wheat</item>
+    </string-array>
+
+    <string-array name="allergy_values">
+        <item>Dairy</item>
+        <item>Egg</item>
+        <item>Gluten</item>
+        <item>Grain</item>
+        <item>Peanut</item>
+        <item>Seafood</item>
+        <item>Sesame</item>
+        <item>Shellfish</item>
+        <item>Soy</item>
+        <item>Sulfite</item>
+        <item>Tree Nut</item>
+        <item>Wheat</item>
+    </string-array>
+
+    <!-- Lifestyle Preference -->
+
+    <string-array name="lifestyle_entries">
+        <item>I Eat Everything</item>
+        <item>Gluten Free</item>
+        <item>Ketogenic</item>
+        <item>Vegetarian</item>
+        <item>Lacto-Vegetarian</item>
+        <item>Ovo-Vegetarian</item>
+        <item>Vegan</item>
+        <item>Pescetarian</item>
+        <item>Paleo</item>
+        <item>Primal</item>
+        <item>Low FODMAP</item>
+        <item>Whole30</item>
+    </string-array>
+
+    <string-array name="lifestyle_values">
+        <item>everything</item>
+        <item>gluten_free</item>
+        <item>ketogenic</item>
+        <item>vegetarian</item>
+        <item>lacto_vegetarian</item>
+        <item>ovo_vegetarian</item>
+        <item>vegan</item>
+        <item>pescetarian</item>
+        <item>paleo</item>
+        <item>primal</item>
+        <item>low_FODMAP</item>
+        <item>whole30</item>
+    </string-array>
+
+    <!-- Cuisine Preference -->
+
+    <string-array name="cuisine_entries">
+        <item>African</item>
+        <item>American</item>
+        <item>British</item>
+        <item>Cajun</item>
+        <item>Caribbean</item>
+        <item>Chinese</item>
+        <item>Eastern European</item>
+        <item>European</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Indian</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Jewish</item>
+        <item>Korean</item>
+        <item>Latin American</item>
+        <item>Mediterranean</item>
+        <item>Mexican</item>
+        <item>Middle Eastern</item>
+        <item>Nordic</item>
+        <item>Southern</item>
+        <item>Spanish</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+    </string-array>
+
+    <string-array name="cuisine_values">
+        <item>african</item>
+        <item>american</item>
+        <item>british</item>
+        <item>cajun</item>
+        <item>caribbean</item>
+        <item>chinese</item>
+        <item>eastern_european</item>
+        <item>european</item>
+        <item>french</item>
+        <item>german</item>
+        <item>greek</item>
+        <item>indian</item>
+        <item>irish</item>
+        <item>italian</item>
+        <item>japanese</item>
+        <item>jewish</item>
+        <item>korean</item>
+        <item>latin_american</item>
+        <item>mediterranean</item>
+        <item>mexican</item>
+        <item>middle Eastern</item>
+        <item>nordic</item>
+        <item>southern</item>
+        <item>spanish</item>
+        <item>thai</item>
+        <item>vietnamese</item>
+    </string-array>
+
+
+</resources>
